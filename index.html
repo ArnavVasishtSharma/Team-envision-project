@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Focus - Register</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FAF8FD;
+        }
+
+        .wrapper {
+            max-width: 800px;
+            margin: 50px auto;
+            display: flex;
+        }
+
+        .image-container {
+            margin-right: 20px;
+        }
+
+        .image-container img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .content {
+            flex: 1;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        h1 {
+            margin-top: 0;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+        }
+
+        input[type="text"], input[type="password"] {
+            width: calc(100% - 22px);
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            transition: border-color 0.3s;
+        }
+
+        input[type="text"]:hover, input[type="password"]:hover {
+            border-color: #9400d3;
+        }
+
+        .login-btn {
+            background-color: #9400d3;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .login-btn:hover {
+            background-color: #7a008c;
+        }
+
+        .social-icons img {
+            width: 30px;
+            margin-right: 10px;
+            border-radius: 5px;
+            transition: transform 0.3s;
+        }
+
+        .social-icons img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>z
+    <div class="wrapper">
+        <div class="image-container">
+            <img src="/thumbnail/screenshotimage.png" alt="Focus">
+        </div>
+        <div class="content">
+            <h1>Welcome to Focus!</h1>
+            <p>Register your Account</p>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password">
+            </div>
+            <button class="login-btn">Login</button>
+            <p>or register with:</p>
+            <div class="social-icons">
+                <img src="/thumbnail/facebook-logo.png" alt="Facebook">
+                <img src="/thumbnail/linkedin-512.webp" alt="LinkedIn">
+                <img src="/thumbnail/googleimage.png" alt="Google">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
